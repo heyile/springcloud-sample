@@ -140,12 +140,12 @@ Notes: 以上服务消费者借助Feign能力调用服务提供者的接口,如�
 * config server 参数配置
 	* 基本参数配置
 
-![](docs/yun_config_param.png)
+![](docs/yun_config_param.PNG)
 
 * 
 	* 容器规格配置
 
-![](docs/yun_config_param2.png)
+![](docs/yun_config_param2.PNG)
 
 > 访问方式 **config server** 同 **eureka** 类似, 可以参考 eureka相关介绍. ps: 建议在有条件的情况下, 合理加大CPU
 > 和内存资源配置.

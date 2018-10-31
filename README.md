@@ -201,6 +201,7 @@ curl -s http://localhost:8991/hello
 
 ![](docs/yun_eureka_zhucedizhi.png)
 
+> **注册中心地址** : 
 > 1. 如果 eureka 集群和config server 在同一个集群,建议通过 **内部域名** 访问. 格式为 http://${eureka服务名称}:${端口}/eureka/. 如上图: http://rkd-eureka:8761/eureka/
 > 2. 如果不在同一个集群中, 则必须通过 **公网IP** 交互. 如上图 : http://49.4.88.128:8761/eureka/
 
